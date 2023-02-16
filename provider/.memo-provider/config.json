@@ -1,0 +1,55 @@
+{
+	"identity": {
+		"role": "provider",
+		"group": "2"
+	},
+	"wallet": {
+		"address": "Me3h4gypuWPTMYjzFPexeGxvmvBL1YJGRovqYi5Z6tmdfY8Y9kMoWoFtuZtyVbCmQFK8PdQz7PFuUH8aQfLR9ZAksPVsWCWu"
+	},
+	"genesis": {},
+	"net": {
+		"name": "devnet",
+		"addresses": [
+			"/ip4/0.0.0.0/tcp/14002"
+		],
+		"enableRelay": false
+	},
+	"api": {
+		"address": "/ip4/127.0.0.1/tcp/14001",
+		"accessControlAllowOrigin": [
+			"http://localhost:5001",
+			"https://localhost:5001",
+			"http://127.0.0.1:5001",
+			"https://127.0.0.1:5001"
+		],
+		"accessControlAllowCredentials": false,
+		"accessControlAllowMethods": [
+			"GET",
+			"POST",
+			"PUT"
+		]
+	},
+	"bootstrap": {
+		"addresses": [
+			"/ip4/121.37.158.192/tcp/23456/p2p/12D3KooWHXmKSneyGqE8fPrTmNTBs2rR9pWTdNcgVG3Tt5htJef7",
+			"/ip4/121.36.243.236/tcp/2222/p2p/12D3KooWKHeDhgLExibUcofNPtwMKEsjxf18KmKoyzyRftZiRWLb",
+			"/ip4/192.168.1.46/tcp/4201/p2p/12D3KooWB5yMrUL6NG6wHrdR9V114mUDkpJ5Mp3c1sLPHwiFi6DN"
+		]
+	},
+	"data": {
+		"metaPath": "",
+		"dataPath": ""
+	},
+	"contract": {
+		"version": 3,
+		"endPoint": "https://testchain.metamemo.one:24180",
+		"roleContract": "0x3c9ebF885d38813632FD129f892E1E0b75371cfA"
+	},
+	"order": {
+		"stop": false,
+		"price": 250000,
+		"duration": 100,
+		"wait": 43200
+	},
+	"sync": {}
+}
