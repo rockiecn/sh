@@ -8,3 +8,5 @@ start is to run the node.
 stop is to stop the node.
 
 Directory charge is the shells about how to recharge a node.
+
+use 'source setPATH.sh' to run setPATH.sh
