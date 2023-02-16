@@ -8,5 +8,5 @@ MEFS_PATH=~/work/p1/.memo-provider ./mefs-provider config set --key=contract.rol
 
 MEFS_PATH=~/work/p1/.memo-provider ./mefs-provider bootstrap clear
 
-MEFS_PATH=~/work/p1/.memo-provider ./mefs-provider bootstrap add "/ip4/103.39.231.220/tcp/54001/p2p/12D3KooWNDQmR5ZsUWJeazcPS6TsVnAFofop4eZhDimDwqTZgQeq"
+MEFS_PATH=~/work/p1/.memo-provider ./mefs-provider bootstrap add "/ip4/103.39.231.220/tcp/14008/p2p/12D3KooWA4wnzRUmtsvP1ybbpWKHWeYHxZLRp7x1oVNtuUuUXWFd"
 
