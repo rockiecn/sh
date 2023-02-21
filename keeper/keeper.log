@@ -1,0 +1,26 @@
+2023/02/21 14:56:18 Memoriae version: 2.6.4.230213+api.2+git.41cabcc+2023-02-21.14:53:57CST
+2023/02/21 14:56:18 System version: amd64/linux
+2023/02/21 14:56:18 Golang version: go1.17.13
+{"level":"INFO","time":"2023-02-21T14:56:18+08:00","sub":"cmd","caller":"cmd/daemon.go:103","msg":"initializing daemon..."}
+badger 2023/02/21 14:56:18 INFO: All 0 tables opened in 0s
+badger 2023/02/21 14:56:18 INFO: Replaying file id: 0 at offset: 0
+badger 2023/02/21 14:56:18 INFO: Replay took: 6.4µs
+{"level":"INFO","time":"2023-02-21T14:56:18+08:00","sub":"badger","caller":"kv/badger.go:136","msg":"start badger ds at: /home/wy/work/k1/.memo-keeper/meta"}
+badger 2023/02/21 14:56:18 INFO: All 0 tables opened in 0s
+badger 2023/02/21 14:56:18 INFO: Replaying file id: 0 at offset: 0
+badger 2023/02/21 14:56:18 INFO: Replay took: 1.9µs
+{"level":"INFO","time":"2023-02-21T14:56:18+08:00","sub":"badger","caller":"kv/badger.go:136","msg":"start badger ds at: /home/wy/work/k1/.memo-keeper/state"}
+{"level":"INFO","time":"2023-02-21T14:56:18+08:00","sub":"simplefs","caller":"simplefs/fs.go:37","msg":"create simplefs at:/home/wy/work/k1/.memo-keeper/data0"}
+{"level":"INFO","time":"2023-02-21T14:56:18+08:00","sub":"repo","caller":"repo/fsrepo.go:142","msg":"open repo at:/home/wy/work/k1/.memo-keeper"}
+{"level":"INFO","time":"2023-02-21T14:56:19+08:00","sub":"net-p2p","caller":"network/libp2p.go:34","msg":"load local peer: 12D3KooWEPukpt9xdrWv6kqgoM8MH8SBczRxZzEdMaT6b1eMhCe7"}
+{"level":"INFO","time":"2023-02-21T14:56:20+08:00","sub":"settle","caller":"settle/register.go:34","msg":"register account to get an unique ID"}
+{"level":"INFO","time":"2023-02-21T14:56:42+08:00","sub":"settle","caller":"settle/mgr.go:237","msg":"Register account successfully, account ID: 25"}
+{"level":"INFO","time":"2023-02-21T14:56:42+08:00","sub":"settle","caller":"settle/register.go:85","msg":"register role: Keeper"}
+{"level":"INFO","time":"2023-02-21T14:56:53+08:00","sub":"settle","caller":"settle/mgr.go:265","msg":"Register role successfully, role type: Keeper"}
+{"level":"INFO","time":"2023-02-21T14:57:27+08:00","sub":"settle","caller":"settle/register.go:126","msg":"add to group 2"}
+{"level":"INFO","time":"2023-02-21T14:57:53+08:00","sub":"settle","caller":"settle/mgr.go:294","msg":"Add to group successfully, group ID: 2"}
+{"level":"ERROR","time":"2023-02-21T14:57:55+08:00","sub":"basenode","caller":"node/builder.go:217","msg":"Please configure the correct contract version(0,2,3) in config.json."}
+{"level":"INFO","time":"2023-02-21T14:57:55+08:00","sub":"badger","caller":"kv/badger.go:371","msg":"badger close"}
+{"level":"INFO","time":"2023-02-21T14:57:55+08:00","sub":"badger","caller":"kv/badger.go:371","msg":"badger close"}
+ERROR: keeper is not active, activate first
+
