@@ -1,5 +1,5 @@
 #!/bin/bash
 cd ~/work/go-mefs-v2/
-make provider
+make mefs
 cd -
-cp ~/work/go-mefs-v2/mefs-provider ./
+cp ~/work/go-mefs-v2/mefs ./
